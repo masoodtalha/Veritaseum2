@@ -31,5 +31,5 @@ if (NAMESPACE == null
         return persona;
     }
 
-    NAMESPACE['id'] = id;
+    NAMESPACE['id'] = id(); // the problem with the code was here. The function has to be referenced in a proper way. 
 }
